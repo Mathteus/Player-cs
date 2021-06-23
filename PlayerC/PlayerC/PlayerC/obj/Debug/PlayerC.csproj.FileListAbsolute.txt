@@ -1,0 +1,30 @@
+D:\Projetos Youtube\PlayerC\PlayerC\bin\Debug\PlayerC.exe.config
+D:\Projetos Youtube\PlayerC\PlayerC\bin\Debug\PlayerC.exe
+D:\Projetos Youtube\PlayerC\PlayerC\bin\Debug\PlayerC.pdb
+D:\Projetos Youtube\PlayerC\PlayerC\bin\Debug\Interop.WMPLib.dll
+D:\Projetos Youtube\PlayerC\PlayerC\bin\Debug\AxInterop.WMPLib.dll
+D:\Projetos Youtube\PlayerC\PlayerC\obj\Debug\PlayerC.csprojAssemblyReference.cache
+D:\Projetos Youtube\PlayerC\PlayerC\obj\Debug\Interop.WMPLib.dll
+D:\Projetos Youtube\PlayerC\PlayerC\obj\Debug\AxInterop.WMPLib.dll
+D:\Projetos Youtube\PlayerC\PlayerC\obj\Debug\PlayerC.csproj.ResolveComReference.cache
+D:\Projetos Youtube\PlayerC\PlayerC\obj\Debug\PlayerC.Form1.resources
+D:\Projetos Youtube\PlayerC\PlayerC\obj\Debug\PlayerC.Properties.Resources.resources
+D:\Projetos Youtube\PlayerC\PlayerC\obj\Debug\PlayerC.csproj.GenerateResource.cache
+D:\Projetos Youtube\PlayerC\PlayerC\obj\Debug\PlayerC.csproj.CoreCompileInputs.cache
+D:\Projetos Youtube\PlayerC\PlayerC\obj\Debug\PlayerC.exe
+D:\Projetos Youtube\PlayerC\PlayerC\obj\Debug\PlayerC.pdb
+C:\Users\Shadow\Downloads\PlayerC\PlayerC\PlayerC\bin\Debug\PlayerC.exe.config
+C:\Users\Shadow\Downloads\PlayerC\PlayerC\PlayerC\bin\Debug\PlayerC.exe
+C:\Users\Shadow\Downloads\PlayerC\PlayerC\PlayerC\bin\Debug\PlayerC.pdb
+C:\Users\Shadow\Downloads\PlayerC\PlayerC\PlayerC\bin\Debug\Interop.WMPLib.dll
+C:\Users\Shadow\Downloads\PlayerC\PlayerC\PlayerC\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Shadow\Downloads\PlayerC\PlayerC\PlayerC\obj\Debug\PlayerC.csprojAssemblyReference.cache
+C:\Users\Shadow\Downloads\PlayerC\PlayerC\PlayerC\obj\Debug\Interop.WMPLib.dll
+C:\Users\Shadow\Downloads\PlayerC\PlayerC\PlayerC\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Shadow\Downloads\PlayerC\PlayerC\PlayerC\obj\Debug\PlayerC.csproj.ResolveComReference.cache
+C:\Users\Shadow\Downloads\PlayerC\PlayerC\PlayerC\obj\Debug\PlayerC.Form1.resources
+C:\Users\Shadow\Downloads\PlayerC\PlayerC\PlayerC\obj\Debug\PlayerC.Properties.Resources.resources
+C:\Users\Shadow\Downloads\PlayerC\PlayerC\PlayerC\obj\Debug\PlayerC.csproj.GenerateResource.cache
+C:\Users\Shadow\Downloads\PlayerC\PlayerC\PlayerC\obj\Debug\PlayerC.csproj.CoreCompileInputs.cache
+C:\Users\Shadow\Downloads\PlayerC\PlayerC\PlayerC\obj\Debug\PlayerC.exe
+C:\Users\Shadow\Downloads\PlayerC\PlayerC\PlayerC\obj\Debug\PlayerC.pdb
