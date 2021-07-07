@@ -50,7 +50,6 @@
             this.player.Size = new System.Drawing.Size(486, 253);
             this.player.TabIndex = 0;
             this.player.KeyDownEvent += new AxWMPLib._WMPOCXEvents_KeyDownEventHandler(this.player_KeyDownEvent);
-            this.player.KeyPressEvent += new AxWMPLib._WMPOCXEvents_KeyPressEventHandler(this.player_KeyPressEvent);
             // 
             // lstPlayList
             // 

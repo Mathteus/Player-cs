@@ -114,55 +114,37 @@ namespace PlayerC
             lstPlayList.Items.RemoveAt(selecionado);
         }
 
-        private void player_KeyPressEvent(object sender, AxWMPLib._WMPOCXEvents_KeyPressEvent e)
-        {
-            if(e.nKeyAscii == 102 & player.fullScreen == true)
-            {
-                player.fullScreen = false;
-            }
-            else if(e.nKeyAscii == 102 & player.fullScreen == false)
-            {
-                player.fullScreen = true;
-            }
-
-            if(tocando & e.nKeyAscii == 107)
-            {
-                player.Ctlcontrols.pause();
-                tocando = !tocando;
-            }
-            else if(!tocando & e.nKeyAscii == 107)
-            {
-                player.Ctlcontrols.play();
-                tocando = !tocando;
-            }
-
-            if(e.nKeyAscii == 97)
-            {
-                player.Ctlcontrols.previous();
-            }
-            if(e.nKeyAscii == 100)
-            {
-                player.Ctlcontrols.next();
-            }
-
-            if(e.nKeyAscii == 48)
-            {
-                MessageBox.Show(player.Ctlcontrols.currentPosition.ToString());
-            }
-        }
-
         private void player_KeyDownEvent(object sender, AxWMPLib._WMPOCXEvents_KeyDownEvent e)
         {
-            if(tocando & e.nKeyCode == 74)
+            double t = ((player.currentMedia.duration / 100) * 1);
+            if (tocando)
             {
-                double t = ((player.currentMedia.duration/100)*1);
-                player.Ctlcontrols.currentPosition -= t;
-            }
+                switch (e.nKeyCode)
+                {
+                    case 74:
+                        player.Ctlcontrols.currentPosition -= t;
+                        break;
 
-            if(tocando & e.nKeyCode == 76)
-            {
-                double t = ((player.currentMedia.duration / 100) * 1);
-                player.Ctlcontrols.currentPosition += t;
+                    case 76:
+                        player.Ctlcontrols.currentPosition += t;
+                        break;
+
+                    case 65:
+                        player.Ctlcontrols.previous();
+                        break;
+
+                    case 68:
+                        player.Ctlcontrols.next();
+                        break;
+
+                    case 75:
+                        tocando = !tocando;
+                        break;
+
+                    case 70:
+                        player.fullScreen = !player.fullScreen;
+                        break;
+                }
             }
         }
     }
